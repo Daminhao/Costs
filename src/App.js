@@ -1,15 +1,13 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import Container from './Components/layout/Container'
-import Navbar from './Components/layout/Navbar'
-import Footer from './Components/layout/Footer'
-
-
-import Home from './Components/pages/Home'
-import Contact from './Components/pages/Contact'
-import Company from './Components/pages/Company'
-import NewProject from './Components/pages/NewProject'
-import Projects from './Components/pages/Projects'
-
+import Footer from './components/layout/Footer'
+import Navbar from './components/layout/Navbar'
+import Container from './components/layout/Container'
+import Home from './components/pages/Home'
+import Projects from './components/pages/Projects'
+import NewProject from './components/pages/NewProject'
+import Company from './components/pages/Company'
+import Contact from './components/pages/Contact'
+import Project from './components/pages/Project'
 
 function App() {
   return (
@@ -31,6 +29,9 @@ function App() {
           </Route>
           <Route path="/newproject">
             <NewProject />
+          </Route>
+          <Route path="/project/:id">
+            <Project />
           </Route>
         </Container>
       </Switch>

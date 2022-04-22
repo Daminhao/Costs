@@ -1,4 +1,4 @@
-.home_container{
+.home_container {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -9,14 +9,13 @@
 
 .home_container h1 {
   font-size: 2.5em;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
 }
 
 .home_container h1 span {
   color: #ffbb33;
-  padding: 0 .2em;
+  padding: 0 0.2em;
   background-color: #222;
-
 }
 
 .home_container p {
@@ -27,4 +26,4 @@
 .home_container img {
   width: 350px;
   margin: 2em 0;
-  }
+}
